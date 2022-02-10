@@ -1,5 +1,3 @@
-from tracemalloc import start
-from urllib import response
 import pytest
 from httpx import AsyncClient
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
